@@ -1,0 +1,26 @@
+{
+  "tailwindCSS.codeActions": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.ignoreUntitled": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]",
+      "classnames\\(([^)]*)\\)",
+      "'([^']*)'"
+    ]
+  ],
+  "cSpell.words": []
+}
