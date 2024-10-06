@@ -50,9 +50,16 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
+    'no-unused-vars': [
+      'error',
+      {
+        args: 'none',
+      },
+    ],
     'prettier/prettier': ['error', { endOfLine: 'auto', singleQuote: true }],
     'react/jsx-sort-props': 'error',
     'react/react-in-jsx-scope': 'off',

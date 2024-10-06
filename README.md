@@ -1,7 +1,3 @@
-Here’s a sample `README.md` file for your Next.js TypeScript project with tests, checks, and guidelines enforcement:
-
----
-
 # Next.js TypeScript App
 
 This is a Next.js application built with TypeScript, featuring strict code guidelines, production checks, and automated testing. The setup includes ESLint, Prettier, Husky, lint-staged, Jest, and CI/CD with GitHub Actions to ensure code quality and consistency.
